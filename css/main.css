@@ -1,0 +1,23 @@
+.b {
+	border: 2.5px solid grey;
+	border-radius: 50%;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+}
+
+.show0, .show1, .show2, .show3, .show4 {
+	display: none;
+}
+
+.show0:target, .show1:target, .show2:target, .show3:target, .show4:target {
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	text-align: center;
+}
